@@ -192,9 +192,9 @@ section {
 .header .navbar {
   background-color: rgb(26, 26, 23);
   background-position: center;
-  background-size: contain;
+  /* background-size: contain; */
   height: 5rem;
-  width: 85rem;
+  width: 80rem;
 }
 
 .navbar-brand {
