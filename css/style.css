@@ -142,7 +142,7 @@ section {
 .gallery .banner_section,
 .contact .banner_section,
 .distributors .banner_section {
-  background: url("../images/bagroungimg.jpg");
+  background: url("../images/bagroundimg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -272,7 +272,7 @@ section {
 /* about css */
 
 .landing_about_section {
-  background: url("../images/bagroungimg.jpg");
+  background: url("../images/bagroundimg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
