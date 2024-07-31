@@ -376,10 +376,11 @@ section {
 /* footer */
 
 .footer_wrapper {
-  background: url("../images/footer-bg/footer_bg.png");
+  /* background: url("../images/footer-bg/footer_bg.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top center;
+  background-position: top center; */
+  background-color: black;
   padding-top: 15rem;
   padding-bottom: 0rem;
 }
