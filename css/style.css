@@ -28,11 +28,11 @@ h1 {
   font-size: 9rem;
   line-height: 1.4;
   font-weight: 600;
-  color: var(--primary-text);
+  color: black;
 }
 
 h2 {
-  color: var(--primary-text);
+  color: black;
   font-size: 4.7rem;
   font-weight: 600;
   display: inline-block;
@@ -42,7 +42,7 @@ h2 {
 }
 
 h3 {
-  color: var(--text-white);
+  color: white;
   font-size: 3.1rem;
   line-height: 1.2;
   font-weight: 700;
@@ -52,7 +52,7 @@ h4 {
   font-size: 2.5rem;
   font-weight: 700;
   line-height: 1;
-  color: var(--primary-text);
+  color: black;
 }
 
 h5 {
@@ -66,7 +66,7 @@ p {
   font-size: 1.6rem;
   line-height: 1.6;
   margin-top: 1rem;
-  color: var(--primary-text);
+  color: grey;
   font-family: var(--secondary-font);
 }
 
@@ -102,7 +102,7 @@ button:hover {
   background: linear-gradient(to right, #0f7404, #5cb917);
   z-index: 1;
   overflow: hidden;
-  border: 0.2rem solid var(--bg-white);
+  border: 0.2rem solid white;
   border-radius: 3.5rem;
   text-transform: uppercase;
   padding: 1rem 3.5rem;
@@ -160,7 +160,7 @@ section {
 
 .contact .contact-form .form-control:focus,
 .distributors .contact-form .form-control:focus {
-  outline: none;
+  /* outline: none; */
   box-shadow: none;
 }
 
@@ -173,7 +173,7 @@ section {
 .distributors .contact-form .form-control {
   padding: 1rem 1.5rem;
   border-radius: 0rem;
-  border: 0.1rem solid var(--secondary-color);
+  border: 0.1rem solid grey;
   color: var(--primary-text);
   font-size: 1.5rem;
   font-weight: 400;
@@ -218,14 +218,14 @@ section {
 }
 
 .header .navbar-toggler {
-  color: white;
+  color: rgb(216, 51, 51);
   font-size: 2rem;
   height: 2.7rem;
   padding: 0;
 }
 
 .header .navbar-toggler:focus {
-  outline: none;
+  /* outline: none; */
   box-shadow: none;
 }
 
@@ -258,7 +258,7 @@ section {
   justify-content: center;
 }
 
-.header-scrolled {
+/* .header-scrolled {
   position: fixed;
   top: -0.4rem;
   left: 0;
@@ -268,7 +268,7 @@ section {
   margin: auto;
   z-index: 999;
   transition: 0.3s ease-in-out;
-}
+} */
 /* about css */
 
 .landing_about_section {
